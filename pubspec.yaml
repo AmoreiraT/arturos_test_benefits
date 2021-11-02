@@ -1,0 +1,59 @@
+name: arturos_test_benefits
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+ 
+dependencies:
+  flutter:
+    sdk: flutter
+
+ 
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^7.3.1
+  bloc: ^7.2.1
+  get_it: ^7.2.0
+  image_picker: ^0.8.4+4
+  flutter_launcher_icons: ^0.9.2
+  route_transitions: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+ 
+  flutter_lints: ^1.0.0
+ 
+flutter:
+ 
+  uses-material-design: true
+ 
+  assets:
+    - images/
+    
+
+  fonts:
+    - family: roboto bold
+      fonts:
+        - asset: fonts/Roboto-Bold.ttf
+    - family: roboto regular
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: helvetica neue medium
+      fonts:
+        - asset: fonts/helveticaneue-medium.ttf
+    - family: helvetica regular
+      fonts:
+        - asset: fonts/helvetica-regular.ttf
+    - family: helvetica bold
+      fonts:
+        - asset: fonts/helvetica-bold.ttf
+
+
+flutter_icons:
+  image_path: 'images/logo arturos.png'
+  android: true
+  ios: true
